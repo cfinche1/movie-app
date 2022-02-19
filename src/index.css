@@ -1,0 +1,26 @@
+* {
+background-color: aquamarine;
+}
+
+.header {
+  text-align: center;
+  color: brown;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header header'
+  "menu main footer footer footer footer";
+  gap: 10px;
+  padding: auto;
+  border: black;
+  border-style: solid;
+}
+
+.card {
+  display:inline-block;
+  overflow-x: scroll;
+}
+
+
